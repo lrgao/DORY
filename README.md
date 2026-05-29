@@ -1,6 +1,6 @@
-# Prompt Recovery Pipeline
+# DORY: Deliberative Prompt Recovery for LLM
 
-This is the cleaned, end-to-end version of the prompt recovery project. The old numbered scripts are no longer the main interface. This folder is organized as a single pipeline with clear source code, data, scripts, and outputs.
+DORY (Deliberative Prompt Recovery) is a prompt recovery framework for inferring the original user prompt from the limited information typically exposed by API-based LLMs: generated text and token-level output probabilities. Based on the ACL 2024 paper DORY: Deliberative Prompt Recovery for LLM, the core idea is that probability-based output uncertainty carries useful prompt-related signals. DORY uses these signals to first reconstruct a draft prompt from the model output, then extract low-uncertainty hint words that are likely shared with the original prompt, reduce noisy words through a second deliberative generation pass, and finally recover a cleaner prompt from the assembled clues. 
 
 ## Directory Layout
 
