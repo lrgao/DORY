@@ -5,7 +5,7 @@ This is the cleaned, end-to-end version of the prompt recovery project. The old 
 ## Directory Layout
 
 ```text
-prompt_recovery_pipeline/
+DORY/
 ├── data/                         # Datasets and few-shot examples
 │   └── alpaca/
 ├── outputs/                      # Pipeline outputs
@@ -20,7 +20,7 @@ prompt_recovery_pipeline/
 ## Setup
 
 ```bash
-cd prompt_recovery_pipeline
+cd DORY
 pip install -r requirements.txt
 python3 -m nltk.downloader punkt
 ```
