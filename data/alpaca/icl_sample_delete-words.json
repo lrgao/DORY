@@ -1,0 +1,102 @@
+[
+   {
+      "id": 13422,
+      "instruction": "Write a function that finds the largest number in a list.",
+      "llm_gen_text": "Sure! Here's a Python function that finds the largest number in a list:\n\n```python\ndef find_largest_number(numbers):\n    if not numbers:\n        return None\n\n    largest = numbers[0]\n    for number in numbers:\n        if number > largest:\n            largest = number\n\n    return largest\n```\n\nYou can use this function by passing a list of numbers as an argument, and it will return the largest number in that list. If the list is empty, it will return `None`.",
+      "reconstruct_instruction": "Provide a Python function to find the biggest number in a list.",
+      "bleu": {
+         "Bleu_1": 0.6666666666111113,
+         "Bleu_2": 0.5504818825152218,
+         "Bleu_3": 0.49489760311471226,
+         "Bleu_4": 0.44833866999525374,
+         "METEOR": 0.3934635445799888,
+         "ROUGE_L": 0.7011494252873562,
+         "CIDEr": 0.0
+      },
+      "top_words": "('number', 'largest', 'function', 'list', 'Python')",
+      "reconstruct_instruction_llmout": "Sure! Here's a Python function that finds the largest number in a list:\n\n```python\ndef find_largest_number(numbers):\n    if not numbers:\n        return None\n\n    largest = numbers[0]\n    for number in numbers:\n        if number > largest:\n            largest = number\n\n    return largest\n```\n\nYou can use this function by passing a list of numbers as an argument, and it will return the largest number in that list. If the list is empty, it will return `None`.",
+      "reconstruct_instruction_llmout_top_words": "('number', 'largest', 'function', 'list', 'Python')",
+      "removewords": "['biggest']",
+      "addwords": "[]"
+   },
+   {
+      "id": 4077,
+      "instruction": "Construct an analogy that compares a smartphone to an appliance.",
+      "llm_gen_text": "Sure! Here's an analogy that compares a smartphone to an appliance:\n\nA smartphone is like a Swiss Army knife in the world of appliances. Just like a Swiss Army knife is a versatile tool that combines multiple functions into one compact device, a smartphone is a versatile gadget that combines various features and capabilities into a single handheld device.\n\nSimilar to how an appliance serves a specific purpose, like a toaster for toasting bread or a blender for making smoothies, a smartphone serves multiple purposes. It can be your communication hub, allowing you to make calls, send messages, and connect with others through various apps. It can also be your personal assistant, with features like calendars, reminders, and voice assistants. Additionally, it can be your entertainment center, providing access to music, videos, games, and social media.\n\nJust as appliances have evolved over time to become more advanced and efficient, smartphones have also undergone significant advancements. They have become faster, more powerful, and equipped with high-resolution displays, advanced cameras, and various sensors. This evolution is similar to how appliances have become smarter, more energy-efficient, and equipped with advanced features to enhance our daily lives.\n\nSo, in essence, a smartphone is like a Swiss Army knife of appliances, offering a wide range of functions and capabilities in a compact and portable package.",
+      "reconstruct_instruction": "Analyze the similarities and differences between a smartphone and an appliance using an analogy.",
+      "bleu": {
+         "Bleu_1": 0.4999999999583334,
+         "Bleu_2": 0.3692744729058266,
+         "Bleu_3": 2.389091911370125e-06,
+         "Bleu_4": 6.238986071516447e-09,
+         "METEOR": 0.2742600930271725,
+         "ROUGE_L": 0.3696969696969697,
+         "CIDEr": 0.0
+      },
+      "top_words": "('analogy', 'smartphone', 'appliance', 'Army', 'world', 'appliances', 'knife', 'Swiss')",
+      "reconstruct_instruction_llmout": "Sure! Let's think of a smartphone as a Swiss Army knife and an appliance as a toolbox. Both the smartphone and the appliance serve as versatile tools that enhance our daily lives in different ways.\n\nJust like a Swiss Army knife, a smartphone is a compact and portable device that combines multiple functions into one. It's not just a phone anymore; it's a camera, a music player, a GPS navigator, a web browser, and so much more. Similarly, an appliance toolbox contains various tools like screwdrivers, wrenches, and pliers, each serving a specific purpose.\n\nBoth the smartphone and the appliance are designed to make our lives more convenient. With a smartphone, we can communicate with others, access information, and perform tasks on the go. Similarly, an appliance toolbox allows us to fix things around the house, assemble furniture, or carry out DIY projects without the need to search for individual tools.\n\nFurthermore, both the smartphone and the appliance have become essential parts of our daily routines. We rely on our smartphones for communication, entertainment, and productivity, while appliances like refrigerators, washing machines, and ovens have become indispensable in our homes, making our lives more comfortable and efficient.\n\nLastly, just as a Swiss Army knife and an appliance toolbox can be customized with additional tools or accessories, smartphones and appliances can be upgraded or enhanced with various apps, software updates, or attachments to expand their capabilities.\n\nIn summary, the similarities between a smartphone and an appliance can be seen through their versatility, convenience, indispensability, and potential for customization and enhancement.",
+      "reconstruct_instruction_llmout_top_words": "('appliance', 'smartphone', 'Army', 'knife', 'toolbox', 'Swiss')",
+      "removewords": "['similarities','differences']",
+      "addwords": "['world', 'appliances']"
+   },
+   {
+      "id": 29593,
+      "instruction": "Create a jingle for a toothpaste brand.",
+      "llm_gen_text": "(Verse 1)\nBrush your teeth, it's time to shine,\nWith our toothpaste, so divine.\nFresh and clean, a dazzling smile,\nGonna make you feel worthwhile.\n\n(Chorus)\nOh, our toothpaste, it's the best,\nKeeps your teeth looking their very best.\nSparkling white, so fresh and bright,\nWith every brush, it feels just right.\n\n(Verse 2)\nSay goodbye to stains and plaque,\nOur toothpaste's got your back.\nMinty flavor, oh so cool,\nMakes brushing fun, not just a rule.\n\n(Chorus)\nOh, our toothpaste, it's the best,\nKeeps your teeth looking their very best.\nSparkling white, so fresh and bright,\nWith every brush, it feels just right.\n\n(Bridge)\nFrom morning to night, it's your dental delight,\nOur toothpaste keeps your smile shining so bright.\nSo grab your brush, squeeze a little bit,\nFeel the freshness, you won't regret it.\n\n(Chorus)\nOh, our toothpaste, it's the best,\nKeeps your teeth looking their very best.\nSparkling white, so fresh and bright,\nWith every brush, it feels just right.\n\n(Outro)\nSo come on, join the toothpaste trend,\nFor a smile that will never end.\nWith our brand, you'll always win,\nA jingle for your toothpaste grin!",
+      "reconstruct_instruction": "Write a jingle for a toothpaste commercial.",
+      "bleu": {
+         "Bleu_1": 0.7142857140816329,
+         "Bleu_2": 0.6900655591369779,
+         "Bleu_3": 0.658633755802396,
+         "Bleu_4": 0.6147881527467011,
+         "METEOR": 0.33907932107602956,
+         "ROUGE_L": 0.7142857142857143,
+         "CIDEr": 0.0
+      },
+      "top_words": "('toothpaste', 'teeth', 'best', 'Chorus')",
+      "reconstruct_instruction_llmout": "(Verse 1)\nWhen you wake up in the morning, feeling bright and new,\nThere's something that will make your smile shine through.\nIt's the magic of our toothpaste, oh so pure and clean,\nWith every brush, your teeth will gleam.\n\n(Chorus)\nBrush, brush, brush with delight,\nOur toothpaste keeps your smile so bright.\nFresh breath, healthy gums, it's a guarantee,\nFor a dazzling smile, choose our toothpaste, you'll see!\n\n(Verse 2)\nSay goodbye to stains, and hello to pearly white,\nOur toothpaste fights plaque, morning and night.\nWith a burst of minty freshness, it's a refreshing treat,\nFor a confident smile, our toothpaste can't be beat.\n\n(Chorus)\nBrush, brush, brush with delight,\nOur toothpaste keeps your smile so bright.\nFresh breath, healthy gums, it's a guarantee,\nFor a dazzling smile, choose our toothpaste, you'll see!\n\n(Bridge)\nFrom young to old, it's perfect for all,\nOur toothpaste stands tall, never to fall.\nSo grab your brush, squeeze a little squeeze,\nAnd unlock the secret to a smile that's a breeze.\n\n(Chorus)\nBrush, brush, brush with delight,\nOur toothpaste keeps your smile so bright.\nFresh breath, healthy gums, it's a guarantee,\nFor a dazzling smile, choose our toothpaste, you'll see!\n\n(Outro)\nSo remember, every day, morning and night,\nOur toothpaste will make your smile shine so bright.\nFor a confident, radiant, and healthy you,\nOur toothpaste is the perfect choice, it's true!",
+      "reconstruct_instruction_llmout_top_words": "('smile', 'morning', 'shine', 'Verse', 'something', 'new', 'bright')",
+      "removewords": "['commercial']",
+      "addwords": "['teeth', 'best', 'Chorus']"
+   },
+   {
+      "id": 24852,
+      "instruction": "Explain the meaning of the idiom \"every cloud has a silver lining.\"",
+      "llm_gen_text": "Ah, the idiom \"every cloud has a silver lining.\" It's a lovely expression that suggests that even in difficult or challenging situations, there is always something positive or hopeful to be found. It's like saying that behind every dark cloud, there's a silver lining waiting to shine through.\n\nThe phrase is often used to encourage optimism and remind people that setbacks or hardships are not the end of the world. It's a way of saying that even when things seem bleak, there is still a chance for something good to come out of it.\n\nFor example, let's say someone loses their job. It's undoubtedly a tough situation, but the silver lining could be that it gives them the opportunity to explore new career paths or discover hidden talents they never knew they had. In this case, the loss of a job becomes a chance for personal growth and new beginnings.\n\nOverall, \"every cloud has a silver lining\" is a reminder to look for the positive aspects in challenging situations and to maintain hope even when things seem difficult. It's a way of finding a glimmer of light in the midst of darkness.",
+      "reconstruct_instruction": "Explain the meaning and usage of the idiom \"every cloud has a silver lining.\"",
+      "bleu": {
+         "Bleu_1": 0.8571428570816327,
+         "Bleu_2": 0.8119979428809196,
+         "Bleu_3": 0.7603371308182669,
+         "Bleu_4": 0.6997522297657573,
+         "METEOR": 0.5676051483896002,
+         "ROUGE_L": 0.9360613810741688,
+         "CIDEr": 0.0
+      },
+      "top_words": "('lining', 'silver', 'cloud', 'positive', 'idiom', 'hopeful', 'situations', 'challenging', 'difficult', 'something')",
+      "reconstruct_instruction_llmout": "Ah, \"every cloud has a silver lining\" is a lovely idiom that conveys a positive outlook on life. It means that even in difficult or challenging situations, there is always something good or positive to be found. Just like how behind every dark cloud, there is a silver lining, or a bright side.\n\nThe idiom encourages us to look beyond the immediate negativity and search for the potential benefits or opportunities that may arise from a seemingly negative situation. It reminds us to maintain hope and optimism, even when things may appear bleak.\n\nFor example, let's say you didn't get the job you were hoping for. It might be disappointing at first, but the silver lining could be that it opens up new possibilities for you to explore other career paths or find an even better opportunity in the future.\n\nOverall, \"every cloud has a silver lining\" is a reminder to stay positive, keep searching for the good, and have faith that things will eventually work out for the best, even when life throws challenges our way.",
+      "reconstruct_instruction_llmout_top_words": "('immediate', 'opportunities', 'benefits', 'idiom', 'situation', 'potential', 'negative', 'search', 'negativity')",
+      "removewords": "['usage']",
+      "addwords": "['positive', 'hopeful', 'situations', 'challenging', 'difficult', 'something']"
+   },
+   {
+      "id": 10851,
+      "instruction": "Generate a list of topics for a presentation about mental health.",
+      "llm_gen_text": "Sure! Here's a list of topics you can consider for a presentation about mental health:\n\n1. Understanding Mental Health: Defining mental health and its importance.\n2. Common Mental Health Disorders: Discussing prevalent disorders like anxiety, depression, bipolar disorder, and schizophrenia.\n3. Stigma and Mental Health: Addressing the social stigma surrounding mental health and its impact on individuals seeking help.\n4. Mental Health in the Workplace: Exploring the importance of promoting mental well-being in work environments and strategies for creating supportive workplaces.\n5. Mental Health and Youth: Discussing the unique challenges faced by young people and the importance of early intervention and support.\n6. Mental Health and Relationships: Examining the impact of mental health on personal relationships and strategies for fostering healthy connections.\n7. Self-Care and Mental Health: Highlighting the significance of self-care practices in maintaining good mental health.\n8. Mental Health and Substance Abuse: Exploring the relationship between mental health disorders and substance abuse, and the importance of integrated treatment.\n9. Mental Health and Technology: Discussing the role of technology in mental health, including the benefits and potential risks.\n10. Mental Health Advocacy: Addressing the importance of advocacy, reducing stigma, and promoting access to mental health resources.\n\nRemember, these topics can be expanded upon or combined to create a comprehensive presentation on mental health.",
+      "reconstruct_instruction": "Create a list of subjects pertaining for a presentation about mental health.",
+      "bleu": {
+         "Bleu_1": 0.9090909089256201,
+         "Bleu_2": 0.9045340335647187,
+         "Bleu_3": 0.8992886258729306,
+         "Bleu_4": 0.893153981630325,
+         "METEOR": 0.5403700811407687,
+         "ROUGE_L": 0.9090909090909091,
+         "CIDEr": 0.0
+      },
+      "top_words": "('health', 'mental', 'presentation', 'list', 'topics')",
+      "reconstruct_instruction_llmout": "Sure! Here's a list of topics you can consider for a presentation about mental health:\n\n1. Understanding Mental Health: Defining mental health and its importance in overall well-being.\n2. Common Mental Health Disorders: An overview of prevalent mental health disorders such as anxiety, depression, bipolar disorder, and schizophrenia.\n3. Stigma and Mental Health: Discussing the negative stereotypes and misconceptions surrounding mental health and the impact they have on individuals seeking help.\n4. Mental Health in the Workplace: Addressing the importance of promoting mental health in work environments and strategies for creating supportive workplaces.\n5. Mental Health and Youth: Exploring the unique challenges faced by young people in relation to mental health, including the impact of social media and peer pressure.\n6. Mental Health and Relationships: Examining the influence of mental health on personal relationships, including communication, empathy, and support.\n7. Self-Care and Mental Health: Highlighting the significance of self-care practices in maintaining good mental health and managing stress.\n8. Mental Health and Physical Health: Discussing the interconnectedness of mental and physical health and the importance of a holistic approach to well-being.\n9. Mental Health and Substance Abuse: Exploring the relationship between mental health disorders and substance abuse, including the concept of dual diagnosis.\n10. Mental Health Support Systems: Discussing the various resources available for individuals seeking help, such as therapy, support groups, and helplines.\n\nRemember, these topics are just a starting point, and you can tailor them to fit the specific needs and interests of your audience.",
+      "reconstruct_instruction_llmout_top_words": "('health', 'mental', 'presentation', 'list', 'topics')",
+      "removewords": "['pertaining']",
+      "addwords": "[]"
+   }
+]
