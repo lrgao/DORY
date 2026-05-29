@@ -128,7 +128,6 @@ python3 scripts/run_pipeline.py \
 The default settings match the stage-by-stage debug script:
 
 - `--model qwen-flash`
-- `--base-url https://dashscope.aliyuncs.com/compatible-mode/v1`
 - `--bert-model bert-base-uncased`
 - `--stanford-corenlp-path src/prompt_recovery/stanford-corenlp-4.5.5`
 - `--max-hint-words 10`
